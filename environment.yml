@@ -1,0 +1,16 @@
+name: smelter-env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=1.13.0
+  - transformers=4.24.0
+  - scikit-learn=1.1.3
+  - scipy=1.9.3
+  - numpy
+  - pandas
+  - tqdm
+  - torchvision
+  - torchaudio
